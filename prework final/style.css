@@ -1,0 +1,105 @@
+*{
+	box-sizing: border-box;
+}
+a{
+	text-decoration: underline;
+	color: #9e0000;
+}
+a:hover{
+	color: #6d0000 ;
+}
+body{
+	
+	margin: 0 auto;
+	padding: 0;
+	background-color: #fffaf3;
+	
+}
+figure{
+	float:right;
+	display:inline-block;
+	text-align: center;
+	font-size: .7em;
+}
+img{
+	float:right;
+	display: inline-block;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+td{
+	height:30px;
+}
+iframe{
+	display: inline-block;
+}
+form{
+	color: #05124a;
+	font-family:Crimson Pro;
+}
+#header{
+	text-align: center;
+	background-color:  #f6d49b  ;
+	padding-top: -1em;
+	font-size: 2em;
+	line-height:1.5em ;
+	color: #05124a ;
+}
+#container{
+	padding:1em;
+	border-style: solid;
+	border-width: 1px;
+	font-size: 1.3em;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+.menu{
+	font-weight: bold;
+	box-sizing: border-box;
+	position: fixed;
+	bottom:0;
+	right:0;
+	width:200px;
+	z-index: 999;
+	border-style: solid;
+	text-align: left;
+	font-size: .8em;
+	padding-left: 10px;
+}
+.menulist{
+	list-style-position: inside;
+	margin: 0;
+	margin-bottom: 10px;
+	padding:0;
+	color: #9e0000;
+}
+.menuhere{
+	text-decoration: underline;
+}
+.content{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.heatTable{
+	table-layout: fixed;
+	width: 400px;
+}
+.heatLow{
+	background-color: green;
+}
+.heatMed{
+	background-color: yellow;
+}
+.heatHigh{
+	background-color: orange;
+}
+.heatPain{
+	background-color: red;
+}
+.subButton{
+	background-color:#f6d49b;
+	color:#05124a;
+	font-size: .9em;
+	border-radius: 3px;
+}
